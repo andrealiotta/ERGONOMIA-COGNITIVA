@@ -1,0 +1,39 @@
+
+body {
+    background-color: #A71E3B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+.U-button {
+    height: 60px;
+    width: 60px;
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5em;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 5em;
+}
