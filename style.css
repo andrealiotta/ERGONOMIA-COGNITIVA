@@ -57,6 +57,7 @@ footer {
     padding: 1em;
     border-radius: 20px;
     margin: 0.2em;
+    margin-bottom: 1em;
     width: 300px;
     height: 150px;
 }
@@ -88,6 +89,27 @@ footer {
 	background-color:#eb675e;
 }
 .myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+	background-color: aliceblue;
+	border-radius:4px;
+	border:1px solid #000;
+	display:inline-block;
+	cursor:pointer;
+	color: #000;
+	font-family:Arial;
+	font-size:20px;
+	padding:10px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px aliceblue;
+}
+.myButton2:hover {
+	background-color:#eb675e;
+}
+.myButton2:active {
 	position:relative;
 	top:1px;
 }
