@@ -68,6 +68,32 @@ footer {
     height: 150px;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    border: 2px solid black;
+    background-color: aliceblue;
+    padding: 1.5em;
+    border-radius: 20px;
+    margin: 0.2em;
+    margin-bottom: 1em;
+    width: fit-content;
+    height: fit-content;
+}
+
+.radio {
+    margin-bottom: 1.5em;
+}
+
+input[type="radio"] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+
+
 .semaforo {
     display: flex;
     flex-direction: row;
@@ -150,4 +176,10 @@ footer {
 }
 .semaforo-verde {
     color: grey;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
