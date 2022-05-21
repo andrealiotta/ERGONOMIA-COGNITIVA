@@ -65,7 +65,7 @@ footer {
     margin: 0.2em;
     margin-bottom: 1em;
     width: 300px;
-    height: 150px;
+    height: min-content;
 }
 
 .card {
@@ -100,7 +100,8 @@ input[type="radio"] {
 }
 
 .locale {
-    margin: 0.5em;
+    margin: 0.3em;
+    text-align: center;
 }
 
  .myButton {
@@ -156,30 +157,30 @@ input[type="radio"] {
     border-radius: 10px;
 }
 
-.semaforo-rosso.active {
-    color: red;
-}
-
-.semaforo-giallo.active {
-    color: gold;
-}
-.semaforo-verde.active {
-    color: green;
-}
-
-.semaforo-rosso {
+.people {
     color: lightgrey;
-}
-
-.semaforo-giallo {
-    color: grey;
-}
-.semaforo-verde {
-    color: grey;
 }
 
 form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.add-favorite {
+    position: relative;
+    left: 130px;
+    top: 5px;
+    padding: 1em;
+    border: 2px solid black;
+}
+
+.card-top-section {
+    display: flex;
+    flex-direction: row;
 }
